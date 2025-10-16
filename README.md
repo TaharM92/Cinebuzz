@@ -46,13 +46,12 @@ Voici les trois diagrammes de séquences représentant chacun les trois fonction
 
 <img width="601" height="451" alt="Diagramme sans nom drawio (4)" src="https://github.com/user-attachments/assets/b03c7484-a0e1-42cd-9627-bcb496bd1537" />
 
-## Fonction "Filtrer" : ##
-
-
-<img width="541" height="519" alt="Diagramme sans nom drawio" src="https://github.com/user-attachments/assets/cb09ab2d-ba14-4450-ab27-cb3860b55c34" />
-
 ## Fonction "Ajouter en favoris" : ##
 
+
+<img width="541" height="519" alt="Diagramme seque drawio" src="https://github.com/user-attachments/assets/d7d5d864-1814-4746-9890-1ff7c8e95bc6" />
+
+## Fonction "Filtrer" : ##
 
 
 <img width="601" height="281" alt="Diagramme sans nom drawio (6)" src="https://github.com/user-attachments/assets/8ff0b543-ef85-49a3-8d55-1fe071c96a3b" />
