@@ -54,7 +54,7 @@ Voici les trois diagrammes de séquences représentant chacun les trois fonction
 ## Fonction "Filtrer" : ##
 
 
-<img width="601" height="281" alt="Diagramme sans nom drawio (6)" src="https://github.com/user-attachments/assets/8ff0b543-ef85-49a3-8d55-1fe071c96a3b" />
+<img width="601" height="281" alt="Diagramme sans nom drawio (8)" src="https://github.com/user-attachments/assets/e0548ec1-96db-4b5a-b2be-27ec65262559" />
 
 
 
