@@ -44,7 +44,7 @@ Voici les trois diagrammes de séquences représentant chacun les trois fonction
 ## Fonction "Rechercher" : ##
 
 
-<img width="601" height="451" alt="Diagramme sans nom drawio (4)" src="https://github.com/user-attachments/assets/b03c7484-a0e1-42cd-9627-bcb496bd1537" />
+<img width="601" height="451" alt="Diagramme sans nom drawio (7)" src="https://github.com/user-attachments/assets/6d9baef6-b09d-4f2d-9490-83338fb1ecc8" />
 
 ## Fonction "Ajouter en favoris" : ##
 
