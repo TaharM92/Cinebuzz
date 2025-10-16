@@ -54,7 +54,8 @@ Voici les trois diagrammes de séquences représentant chacun les trois fonction
 ## Fonction "Ajouter en favoris" : ##
 
 
-<img width="601" height="281" alt="Diagramme sans nom drawio (5)" src="https://github.com/user-attachments/assets/b6b6e00b-54d0-433e-9849-e8da924eae5d" />
+
+<img width="601" height="281" alt="Diagramme sans nom drawio (6)" src="https://github.com/user-attachments/assets/8ff0b543-ef85-49a3-8d55-1fe071c96a3b" />
 
 
 
