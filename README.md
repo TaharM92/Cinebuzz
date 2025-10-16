@@ -33,3 +33,17 @@ Voici le diagramme des actions que peut réaliser l'utilisateur sur le site :
 # Diagramme des exigences : #
 
 Voici le diagramme des exigences qu'on va devoir respecter :
+
+
+
+
+
+
+
+
+
+
+
+# Diagrammes de séquences #
+
+Voici les trois diagrammes de séquences représentant chacun les trois fonctions respectives du diagramme d'utilisation : Se connecter / S'inscrire ; Rechercher ; Ajouter en favoris.
