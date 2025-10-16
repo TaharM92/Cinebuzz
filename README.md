@@ -24,5 +24,5 @@ Intégration TMDb pour données et médias.
 Design moderne, attrayant, facile à utiliser.
 
 
-![alt tag](https://cloud.githubusercontent.com/assets/3968618/9588666/d029268e-5029-11e5-8a0c-41ecd04207f4.png)
+![alt tag](https://github.com/user-attachments/files/22952479/Diagramme.sans.nom.drawio.pdf)
 
