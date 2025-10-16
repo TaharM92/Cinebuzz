@@ -1,9 +1,9 @@
 # Cahier des charges : #
-# Objectif
+## Objectif : ##
 
 Créer un site jeune et dynamique qui permet de découvrir facilement films, séries, et animes avec infos à jour, notes, et trailers via l’API TMDb.
 
-# Fonctionnalités clés
+## Fonctionnalités clés: ##
 
 Page d'accueil avec nouveautés, top notes, et trailers.
 
@@ -17,7 +17,7 @@ Espace utilisateurs pour sauvegarder favoris.
 
 Interface fluide pour PC.
 
-# Technique
+## Technique : ##
 
 Intégration TMDb pour données et médias.
 
@@ -30,7 +30,7 @@ Voici le diagramme des actions que peut réaliser l'utilisateur sur le site :
 
 <img width="781" height="531" alt="Diagramme sans nom drawio (2)" src="https://github.com/user-attachments/assets/4caf7117-341c-48bd-be46-81e8bf882140" />
 
-## Diagramme des exigences : ##
+# Diagramme des exigences : #
 
 Voici le diagramme des exigences qu'on va devoir respecter :
 
@@ -41,7 +41,7 @@ Voici le diagramme des exigences qu'on va devoir respecter :
 
 Voici les trois diagrammes de séquences représentant chacun les trois fonctions respectives du diagramme d'utilisation : Rechercher ; Filtrer ; Ajouter en favoris.
 
-# Fonction "Rechercher" : #
+## Fonction "Rechercher" : ##
 
 
 <img width="601" height="451" alt="Diagramme sans nom drawio (4)" src="https://github.com/user-attachments/assets/b03c7484-a0e1-42cd-9627-bcb496bd1537" />
