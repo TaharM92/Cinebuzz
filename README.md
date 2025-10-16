@@ -37,20 +37,13 @@ Voici le diagramme des exigences qu'on va devoir respecter :
 
 <img width="921" height="493" alt="Diagramme d'exigence drawio" src="https://github.com/user-attachments/assets/dc81fc1b-f537-40c5-95cc-bf974b8715a2" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Diagrammes de séquences #
 
-Voici les trois diagrammes de séquences représentant chacun les trois fonctions respectives du diagramme d'utilisation : Se connecter / S'inscrire ; Rechercher ; Ajouter en favoris.
+Voici les trois diagrammes de séquences représentant chacun les trois fonctions respectives du diagramme d'utilisation : Rechercher ; Filtrer ; Ajouter en favoris.
+
+# Fonction "Rechercher" : #
+
+
+<img width="601" height="451" alt="Diagramme sans nom drawio (4)" src="https://github.com/user-attachments/assets/b03c7484-a0e1-42cd-9627-bcb496bd1537" />
+
+
