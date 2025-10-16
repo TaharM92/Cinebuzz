@@ -51,5 +51,10 @@ Voici les trois diagrammes de séquences représentant chacun les trois fonction
 
 <img width="541" height="519" alt="Diagramme sans nom drawio" src="https://github.com/user-attachments/assets/cb09ab2d-ba14-4450-ab27-cb3860b55c34" />
 
+## Fonction "Ajouter en favoris" : ##
+
+
+<img width="601" height="281" alt="Diagramme sans nom drawio (5)" src="https://github.com/user-attachments/assets/b6b6e00b-54d0-433e-9849-e8da924eae5d" />
+
 
 
