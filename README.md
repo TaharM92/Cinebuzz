@@ -1,4 +1,4 @@
-# Cahier des charges #
+# Cahier des charges : #
 # Objectif
 
 Créer un site jeune et dynamique qui permet de découvrir facilement films, séries, et animes avec infos à jour, notes, et trailers via l’API TMDb.
