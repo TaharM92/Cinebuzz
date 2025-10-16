@@ -47,3 +47,7 @@ Voici les trois diagrammes de séquences représentant chacun les trois fonction
 <img width="601" height="451" alt="Diagramme sans nom drawio (4)" src="https://github.com/user-attachments/assets/b03c7484-a0e1-42cd-9627-bcb496bd1537" />
 
 
+<img width="541" height="519" alt="Diagramme sans nom drawio" src="https://github.com/user-attachments/assets/cb09ab2d-ba14-4450-ab27-cb3860b55c34" />
+
+
+
