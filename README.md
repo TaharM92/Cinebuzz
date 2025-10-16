@@ -30,7 +30,7 @@ Voici le diagramme des actions que peut réaliser l'utilisateur sur le site :
 
 <img width="781" height="531" alt="Diagramme sans nom drawio (2)" src="https://github.com/user-attachments/assets/4caf7117-341c-48bd-be46-81e8bf882140" />
 
-# Diagramme des exigences : #
+## Diagramme des exigences : ##
 
 Voici le diagramme des exigences qu'on va devoir respecter :
 
