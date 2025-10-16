@@ -15,7 +15,7 @@ Classements par popularité et genre.
 
 Espace utilisateurs pour sauvegarder favoris.
 
-Interface responsive pour mobile et PC.
+Interface fluide pour PC.
 
 # Technique
 
