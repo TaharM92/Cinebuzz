@@ -7,5 +7,27 @@
 </head>
 <body>
     <h1>CineBuzz</h1>
+    <div id="result"></div>
+      <script>
+    // URL de l'API
+    const apiUrl = 'https://api.example.com/data';
+
+    // En-têtes d’authentification (exemple)
+    const headers = {
+      'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNGQzOGMwMThjNmVlNmFkOTlmZWY5ZTc2YmJlMTMzZCIsIm5iZiI6MTc2MjQzOTI3Ny4zLCJzdWIiOiI2OTBjYjA2ZGIxOWUxNDhiOGJkNzM3NTgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.EM3PF-x0qytsnauGtxX3sOaHTrUZlwE6FYAZLAosTMY',
+      'x-api-key': '04d38c018c6ee6ad99fef9e76bbe133d'
+    };
+
+    fetch(apiUrl, { headers })
+      .then(response => response.json())
+      .then(data => {
+        // Afficher la réponse dans la page
+        document.getElementById('result').innerText = JSON.stringify(data, null, 2);
+      })
+      .catch(error => {
+        console.error('Erreur API:', error);
+        document.getElementById('result').innerText = 'Erreur lors de la récupération des données';
+      });
+  </script>
 </body>
 </html>
