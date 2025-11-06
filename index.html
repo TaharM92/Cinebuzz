@@ -10,12 +10,12 @@
     <div id="result"></div>
       <script>
     // URL de l'API
-    const apiUrl = 'https://api.example.com/data';
+    const apiUrl = 'https://api.themoviedb.org/3/movie/popular?language=fr-FR&page=1';
 
     // En-têtes d’authentification (exemple)
     const headers = {
-      'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNGQzOGMwMThjNmVlNmFkOTlmZWY5ZTc2YmJlMTMzZCIsIm5iZiI6MTc2MjQzOTI3Ny4zLCJzdWIiOiI2OTBjYjA2ZGIxOWUxNDhiOGJkNzM3NTgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.EM3PF-x0qytsnauGtxX3sOaHTrUZlwE6FYAZLAosTMY',
-      'x-api-key': '04d38c018c6ee6ad99fef9e76bbe133d'
+      'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyZjg2ZjZhZTU5YjY4YjIwYjljNzJmZWZkMDZlZDhiOCIsIm5iZiI6MTc2MjQzOTI3Ny4zLCJzdWIiOiI2OTBjYjA2ZGIxOWUxNDhiOGJkNzM3NTgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.in21odgEJHGkVvKPVxzGloGGuSy7n05S2x2hyW9Y1oQ',
+      'x-api-key': '2f86f6ae59b68b20b9c72fefd06ed8b8'
     };
 
     fetch(apiUrl, { headers })
