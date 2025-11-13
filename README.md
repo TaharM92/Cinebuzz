@@ -35,7 +35,7 @@ Voici le diagramme des actions que peut réaliser l'utilisateur sur le site :
 Voici le diagramme des exigences qu'on va devoir respecter :
 
 
-
+<img width="691" height="313" alt="Diagramme sans nom drawio (1)" src="https://github.com/user-attachments/assets/10927090-846e-4927-b288-9b1e3fbd36d2" />
 
 # Diagrammes de séquences #
 
