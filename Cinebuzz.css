@@ -1,0 +1,207 @@
+#title{
+    text-indent: 500px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 340%;
+    font-weight: 340%;
+    color: #E50914;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0);
+    padding: 15px;
+}
+.navbar a {
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+.navbar a:hover {
+    color: #E50914;
+}
+body {
+    background-color: #000; /* site background set to pure black */
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: white;
+    }
+}
+h1{
+    text-indent: 900px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 340%;
+    font-weight: 340%;
+    color: #E50914;
+}
+
+body {
+    background: #000; /* enforce black background for the whole site */
+    color: #E4E6EB;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #242526;
+    padding: 0 40px 0 20px;
+}
+
+.logo {
+    height: 70px;
+    margin-right: 20px;
+}
+
+.brand-title {
+    font-size: 2.3em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    gap: 1.5em;
+}
+
+.navbar a {
+    color: #E4E6EB;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 6px;
+    transition: background .2s;
+}
+
+.navbar a.active, .navbar a:hover {
+    background: #3A3B3C;
+}
+
+main {
+    padding: 32px 10vw;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 32px;
+    margin-top: 20px;
+    padding: 0 4vw; /* horizontal spacing between grid and page edges */
+    box-sizing: border-box;
+}
+
+.movie-card {
+    background: #242526;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #1113  ;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    transition: transform .15s ease, box-shadow .15s ease;
+    will-change: transform;
+    overflow: hidden; /* avoid visual overflow affecting layout */
+    min-height: 480px; /* reserve space so hover visual change doesn't push other items */
+}
+.movie-card:hover {
+    transform: translateY(-6px); /* only translate, no scale to prevent layout jump */
+}
+
+.movie-card img {
+    width: 100%; /* full width of the card */
+    height: auto;
+    max-height: 350px; /* keep posters reasonably tall but constrained */
+    object-fit: cover; /* fill the image area nicely */
+    border-radius: 8px;
+    margin-bottom: 14px;
+    display: block;
+}
+
+/* Make sure the card's content stretches horizontally so text wraps nicely */
+.movie-card {
+    align-items: stretch;
+}
+
+.movie-title {
+    font-size: 1.15em;
+    margin-bottom: 8px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.movie-date {
+    font-size: 0.97em;
+    color: #b0b3b8;
+    margin-bottom: 6px;
+}
+
+.movie-overview {
+    font-size: 0.94em;
+    color: #cfd2d6;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+/* Limit overview to a few lines and add ellipsis */
+.movie-overview {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+/* Ensure the grid container has sensible spacing on small viewports */
+@media screen and (max-width: 600px) {
+    .movies-grid {
+        padding: 0 3vw;
+    }
+}
+
+.movie-rating {
+    font-size: 1em;
+    color: #ffd166;
+    text-align: center;
+    margin-top: 8px;
+    display: none; /* hidden by default, shown when card has .show-rating */
+    font-weight: 700;
+}
+
+.movie-card.show-rating {
+    /* optionally emphasize the card when rating is visible */
+    box-shadow: 0 8px 24px #0008;
+}
+
+.movie-card.show-rating .movie-rating {
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        padding: 22px 4vw;
+    }
+    .header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+}
