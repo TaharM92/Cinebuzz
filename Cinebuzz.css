@@ -25,7 +25,7 @@
     color: #E50914;
 }
 body {
-    background-color: #000; /* site background set to pure black */
+    background-color: #000;
     color: white;
     font-family: 'Quicksand', sans-serif;
 }
@@ -44,7 +44,7 @@ h1{
 }
 
 body {
-    background: #000; /* enforce black background for the whole site */
+    background: #000;
     color: #E4E6EB;
     font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -103,7 +103,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 32px;
     margin-top: 20px;
-    padding: 0 4vw; /* horizontal spacing between grid and page edges */
+    padding: 0 4vw; 
     box-sizing: border-box;
 }
 
@@ -117,24 +117,23 @@ h1 {
     align-items: stretch;
     transition: transform .15s ease, box-shadow .15s ease;
     will-change: transform;
-    overflow: hidden; /* avoid visual overflow affecting layout */
-    min-height: 480px; /* reserve space so hover visual change doesn't push other items */
+    overflow: hidden; 
+    min-height: 480px; 
 }
 .movie-card:hover {
-    transform: translateY(-6px); /* only translate, no scale to prevent layout jump */
+    transform: translateY(-6px); 
 }
 
 .movie-card img {
-    width: 100%; /* full width of the card */
+    width: 100%; 
     height: auto;
-    max-height: 350px; /* keep posters reasonably tall but constrained */
-    object-fit: cover; /* fill the image area nicely */
+    max-height: 350px; 
+    object-fit: cover; 
     border-radius: 8px;
     margin-bottom: 14px;
     display: block;
 }
 
-/* Make sure the card's content stretches horizontally so text wraps nicely */
 .movie-card {
     align-items: stretch;
 }
@@ -160,7 +159,6 @@ h1 {
     margin-bottom: 6px;
 }
 
-/* Limit overview to a few lines and add ellipsis */
 .movie-overview {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -169,7 +167,6 @@ h1 {
     text-align: left;
 }
 
-/* Ensure the grid container has sensible spacing on small viewports */
 @media screen and (max-width: 600px) {
     .movies-grid {
         padding: 0 3vw;
@@ -181,12 +178,11 @@ h1 {
     color: #ffd166;
     text-align: center;
     margin-top: 8px;
-    display: none; /* hidden by default, shown when card has .show-rating */
+    display: none; 
     font-weight: 700;
 }
 
 .movie-card.show-rating {
-    /* optionally emphasize the card when rating is visible */
     box-shadow: 0 8px 24px #0008;
 }
 
@@ -194,14 +190,14 @@ h1 {
     display: block;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px){
     main {
         padding: 22px 4vw;
     }
     .header {
-        flex-direction: column;
-        gap: 10px;
-        padding: 20px 10px;
-        text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 10px;
+    text-align: center;
     }
 }
