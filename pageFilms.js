@@ -23,20 +23,16 @@ function filmCard(movie) {
 }
 
 async function main() {
-    // If the current page doesn't have a #results container (e.g. homepage), do nothing
     const resultsEl = document.getElementById('results');
     if (!resultsEl) return;
 
     const results = await getPopularFilms();
-    // apply grid class so CSS grid styles are used
     resultsEl.classList.add('movies-grid');
     resultsEl.innerHTML = results.map(filmCard).join('');
 
-    // Event delegation: toggle rating visibility when a movie card is clicked
     resultsEl.addEventListener('click', (e) => {
         const card = e.target.closest('.movie-card');
         if (!card) return;
-        // toggle a class which CSS will use to show/hide the rating
         card.classList.toggle('show-rating');
         const rating = card.querySelector('.movie-rating');
         if (rating) {
