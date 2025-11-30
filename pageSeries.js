@@ -6,7 +6,6 @@ async function getPopularSeries() {
     });
     return (await response.json()).results;
 }
-
 function seriesCard(show) {
     const img = show.poster_path
         ? `https://image.tmdb.org/t/p/w500${show.poster_path}`
@@ -21,7 +20,6 @@ function seriesCard(show) {
         </div>
     `;
 }
-
 async function main() {
     const resultsEl = document.getElementById('results');
     if (!resultsEl) return;
@@ -41,8 +39,4 @@ async function main() {
         }
     });
 }
-
-window.onload = main;
-
-
 window.onload = main;
